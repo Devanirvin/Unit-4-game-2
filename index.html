@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="type/css" href="Assets/css/style.css">
+    <script src="Assets/game.js"></script>
+
+
+</head>
+
+<body>
+    <div class="crystals"></div>
+
+
+    <h1 class="text-center">Crystals Collector</h1>
+
+    <h2 class="text-center">How to Play</h2>
+
+    <p class="text-center">
+        You will be given a random number at the start of the game.
+    </p>
+
+    <p class="text-center">
+        There are four crystals below. By clicking on a crystal you <br />will add a specific amount of points toyour
+        totalscore.
+    </p>
+    <p class="text-center">
+        You win the game by matching your total score to a random <br /> number, you lose the game if your total score
+        goes above <br /> the random number
+    </p>
+
+    <p class="text-center">
+        The value of each crystal is hidden from you until you <br /> click on it.
+    </p>
+
+    <p class="text-center">
+        Each time when the game starts, the game will change the <br /> values ofeach crystal.
+    </p>
+
+    <div id="data-for-game">
+        <div id="Random-number">
+        </div>
+        <div class="wins-losses">
+            <p>Wins: <span id="wins"></span></p>
+            <p>Losses: <span id="losses"></span></p>
+        </div>
+    </div>
+
+    <div id="score-container">
+        <div id="total-header">Your total score is: </div>
+        <div id="total-score"><span id="counter-total"></span></div>
+    </div>
+
+    <div id="crystal-container">
+        <div class="crystals">
+            <img src="Assets/crystal-1.jpg" alt="Crystal" class="crystal-image " id="crystal-1" />
+        </div>
+        <div class="crystals">
+            <img src="Assets/crystal-2.jpg" alt="Crystal" class="crystal-image" id="crystal-2" />
+        </div>
+        <div class="crystals">
+            <img src="Assets/crystal-3.jpg" alt="Crystal" class="crystal-image" id="crystal-3" />
+        </div>
+        <div class="crystals">
+            <img src="Assets/crystal-4.jpg" alt="Crystal" class="crystal-image" id="crystal-4" />
+        </div>
+    </div>
+
+    <script>
+    </script>
+</body>
+
+</html>
