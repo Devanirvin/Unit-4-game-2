@@ -1,0 +1,94 @@
+body {
+    
+        background-image: url("./00_crystal_Reasons-Why-You-Should-Give-Crystals-a-Try_364248173_Abra-Cadabraaa_FT");
+    }
+    
+    /*header*/
+    
+    .header {
+        width: 45%;
+        margin-left: 27%;
+        text-align: center;
+        background-color: #00e5ff;
+        border: 8px solid;
+        border-top-color: #00d8ff;
+        border-right-color: #00d8ff;
+        border-bottom-color: #00a9ff;
+        border-left-color: #00a9ff;
+    } 
+
+
+/*header*/
+
+.header {
+    width: 45%;
+    margin-left: 27%;
+    text-align: center;
+    background-color: #00e5ff;
+    border: 8px solid;
+    border-top-color: #00d8ff;
+    border-right-color: #00d8ff;
+    border-bottom-color: #00a9ff;
+    border-left-color: #00a9ff;
+}
+
+.random-number {
+    width: 15%;
+    text-align: center;
+    background-color: #00e5ff;
+    border: 8px solid;
+    border-top-color: #00d8ff;
+    border-right-color: #00d8ff;
+    border-bottom-color: #00a9ff;
+    border-left-color: #00a9ff;
+    margin: 4% 0 0 43%;
+    font-size: 4em;
+}
+
+
+
+.total-score {
+    float: left;
+    position: relative;
+    text-align: center;
+    background-color: #00e5ff;
+    border: 8px solid;
+    border-top-color: #00d8ff;
+    border-right-color: #00d8ff;
+    border-bottom-color: #00a9ff;
+    border-left-color: #00a9ff;
+    font-size: 3em;
+    width: 26%;
+    margin: 2% 0 0 22%;
+    padding-bottom: 12px;
+}
+
+.wins-losses {
+    float: right;
+    position: relative;
+    text-align: center;
+    width: 26%;
+    background-color: #00e5ff;
+    border: 8px solid;
+    border-top-color: #00d8ff;
+    border-right-color: #00d8ff;
+    border-bottom-color: #00a9ff;
+    border-left-color: #00a9ff;
+    margin-top: 2%;
+    margin-right: 20%;
+    font-size: 1.5em;
+}
+
+.footer {
+    width: 26%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin: 33% 0 0 36%;
+    text-align: center;
+    background-color: #00e5ff;
+    border: 8px solid;
+    border-top-color: #00d8ff;
+    border-right-color: #00d8ff;
+    border-bottom-color: #00a9ff;
+    border-left-color: #00a9ff;}
+
